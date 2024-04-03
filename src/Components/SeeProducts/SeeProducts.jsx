@@ -18,7 +18,7 @@ const SeeProducts = () => {
 
         setFindProducts(findProduct)
 
-    }, []);
+    }, [brand_name]);
 
 
 

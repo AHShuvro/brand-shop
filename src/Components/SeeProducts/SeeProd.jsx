@@ -23,10 +23,9 @@ const SeeProd = (product) => {
                 addedMyCart.push(...myCart, prod)
                 localStorage.setItem('myProduct', JSON.stringify(addedMyCart))
                 
-                alert("amar sunar bangla")
             }
             else{
-                alert("ami tumay valobasi")
+                alert("You already added this projuct !")
             }
 
 
