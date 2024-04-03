@@ -19,7 +19,9 @@ const MyCart = () => {
         <div className="">
             <div className="container mx-auto">
                 {
-                    noDataFound ? <p className="text-center text-6xl text-red-500 font-semibold h-[60vh] pt-52">{noDataFound}</p>
+                    noDataFound ? <div className="flex justify-center items-center h-[60vh]">
+                        <p className="text-center text-2xl sm:text-4xl lg:text-6xl text-red-500 font-semibold ">{noDataFound}</p>
+                    </div>
                         : <div className="py-24 grid grid-cols-1 lg:grid-cols-2 gap-6 container mx-auto">
                             {
                                 product?.map((item, idx) => (
